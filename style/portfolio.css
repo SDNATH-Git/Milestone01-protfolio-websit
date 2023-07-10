@@ -41,17 +41,104 @@ nav a{
 /* Header color */
 .header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 /* banner style */
 .banner{
-   padding: 30px 30px 30px 150px;
+   padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .banner .profile-pic{
-    width: 250px;
+    width: 350px;
+}
+.banner-text0{
+    max-width: 500px;
+}
+.banner-text1{
+    font-size: 45px;
+    font-weight: 500;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-text2{
+    font-size: 85px;
+    font-weight:700;
+    color: #181818;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.banner-text3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+/* main section style */
+main{
+    width: 1140px;
+    margin: auto;
+    margin-top: 130px;
+  
 }
 
+/* About section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+    
+}
+.about-text1{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-text2{
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+   line-height: 30px;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+/* What i do section */
+.what{
+    text-align: center;
+}
+.what-1{
+    text-align: center;
+    padding: 20px 130px;
+}
+/* Skill section */
+.skill-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.skill{
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+    background: #FFF;
+   box-shadow: 0px 6px 15px 10px rgb(84, 83, 83)
+   
+}
+/*A summary of My Resume*/
+.resume{
+    padding: 100px;
+    text-align: center;
+}
 
 
 

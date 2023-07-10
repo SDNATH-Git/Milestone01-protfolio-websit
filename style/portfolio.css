@@ -136,8 +136,18 @@ main{
 }
 /*A summary of My Resume*/
 .resume{
-    padding: 100px;
+    padding: 80px;
     text-align: center;
+    font-size: 40px;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.Download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
 
 

@@ -148,6 +148,24 @@ main{
 .Download-cv{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* footer section */
+.footer{
+     display: flex;
+     background: #FFF8F3;
+     padding: 130px 300px;
+     gap: 300px;
+
+}
+.footer1{
+    width: 50%;
+}
+.contact input,text,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    width: 300px;
 }
 
 
